@@ -15,7 +15,7 @@ In this project I helped the United States Geological Survey visualize their ear
 
 ### Level 1: Basic Visualization
 
-![2-BasicMap](Screen Shot 2020-03-26 at 1.14.50 PM.png) 
+![2-BasicMap](https://github.com/shazeeye/leaflet-challenge/blob/master/Screen%20Shot%202020-03-26%20at%201.14.50%20PM.png) 
 Your first task is to visualize an earthquake data set.
 
 1. **Data set**
