@@ -58,7 +58,7 @@ function createMarkers(earthquakeData) {
       fillColor: color,
       // Adjust radius
       radius: (properties.mag * 15000)
-    }).bindPopup("<h3>" + properties.place + "</h3> <hr> <h3>Magnitud: " + properties.mag + "</h3>");
+    }).bindPopup("<h3>" + properties.place + "</h3> <hr> <h3>Magnitude: " + properties.mag + "</h3>");
     //Add the cricle to the array
     myCircleArray.push(myCircle);
   }
@@ -109,18 +109,7 @@ function createMarkers(earthquakeData) {
   };
 
   //Add the legend by default
-  legend.addTo(myMap)
+  legend.addTo(myMap);
 
-  //Overlay listener for adding
-  myMap.on('overlayadd', function() {
-    //Add the legend
-    legend.addTo(myMap);
-  });
-
-  //Overlay listener for remove
-  myMap.on('overlayremove', function() {
-    //Remove the legend
-    myMap.removeControl(legend);
-  });
 }
   
